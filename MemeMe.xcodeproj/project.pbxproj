@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AF0E2D7A21A0397A00061EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0E2D7921A0397A00061EB3 /* AppDelegate.swift */; };
-		AF0E2D7C21A0397A00061EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0E2D7B21A0397A00061EB3 /* ViewController.swift */; };
+		AF0E2D7C21A0397A00061EB3 /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0E2D7B21A0397A00061EB3 /* MemeViewController.swift */; };
 		AF0E2D7F21A0397A00061EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0E2D7D21A0397A00061EB3 /* Main.storyboard */; };
 		AF0E2D8121A0397D00061EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0E2D8021A0397D00061EB3 /* Assets.xcassets */; };
 		AF0E2D8421A0397D00061EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0E2D8221A0397D00061EB3 /* LaunchScreen.storyboard */; };
+		AF0E2D8C21A07F9900061EB3 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0E2D8B21A07F9900061EB3 /* Meme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF0E2D7621A0397A00061EB3 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0E2D7921A0397A00061EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF0E2D7B21A0397A00061EB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF0E2D7B21A0397A00061EB3 /* MemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeViewController.swift; sourceTree = "<group>"; };
 		AF0E2D7E21A0397A00061EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF0E2D8021A0397D00061EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF0E2D8321A0397D00061EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF0E2D8521A0397D00061EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0E2D8B21A07F9900061EB3 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				AF0E2D7921A0397A00061EB3 /* AppDelegate.swift */,
-				AF0E2D7B21A0397A00061EB3 /* ViewController.swift */,
+				AF0E2D8B21A07F9900061EB3 /* Meme.swift */,
+				AF0E2D7B21A0397A00061EB3 /* MemeViewController.swift */,
 				AF0E2D7D21A0397A00061EB3 /* Main.storyboard */,
 				AF0E2D8021A0397D00061EB3 /* Assets.xcassets */,
 				AF0E2D8221A0397D00061EB3 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0E2D7C21A0397A00061EB3 /* ViewController.swift in Sources */,
+				AF0E2D8C21A07F9900061EB3 /* Meme.swift in Sources */,
+				AF0E2D7C21A0397A00061EB3 /* MemeViewController.swift in Sources */,
 				AF0E2D7A21A0397A00061EB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6K7JX577MM;
 				INFOPLIST_FILE = MemeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6K7JX577MM;
 				INFOPLIST_FILE = MemeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
