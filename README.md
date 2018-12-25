@@ -2,5 +2,5 @@
 MemeMe, Udacity course project
 
 
-![MemeMe](https://github.com/komz78/PitchPerfect/blob/master/PitchPerfect.png?raw=true)
+![MemeMe](https://github.com/komz78/MemeMe-2/blob/master/Meme.png?raw=true)
 
